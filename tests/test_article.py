@@ -1,4 +1,5 @@
 import pytest
+import sqlite3
 import logging
 from lib.db.connection import get_connection
 from scripts.setup_db import setup_database
